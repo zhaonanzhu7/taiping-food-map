@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="以上海太平花园为中心的移动端私房美食地图。"
+    />
+    <title>太平花园吃什么</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="home-screen" id="home" aria-label="餐馆横向选择">
+        <div class="map-dots" aria-hidden="true"></div>
+        <header class="cover-title">
+          <span>再</span>
+          <span>见</span>
+          <span class="comma">，</span>
+          <span>在</span>
+        </header>
+
+        <div class="restaurant-rail" aria-label="左右滑动选择餐馆">
+          <button class="rail-button prev" type="button" aria-label="上一个餐馆">
+            ‹
+          </button>
+          <div class="restaurant-track" id="restaurantTrack"></div>
+          <button class="rail-button next" type="button" aria-label="下一个餐馆">
+            ›
+          </button>
+        </div>
+
+        <p class="cover-footnote">太平花园附近 12 家常想起的店</p>
+      </section>
+
+      <section class="detail-screen" id="detail" hidden aria-live="polite">
+        <header class="detail-header">
+          <button class="text-button" type="button" id="backButton">返回</button>
+          <span id="detailCount">01 / 12</span>
+        </header>
+
+        <article class="restaurant-detail">
+          <figure class="photo-wrap">
+            <img id="detailPhoto" src="" alt="" />
+            <figcaption id="detailScene"></figcaption>
+          </figure>
+
+          <div class="detail-copy">
+            <p class="mini-label" id="detailCategory"></p>
+            <h1 id="detailName"></h1>
+            <div class="tag-row" id="detailTags"></div>
+            <p class="review" id="detailReview"></p>
+          </div>
+        </article>
+
+        <section class="map-panel" aria-label="地图和外部链接">
+          <div class="map-card">
+            <div class="map-line" aria-hidden="true">
+              <span class="home-pin">太平花园</span>
+              <span class="route-dot"></span>
+              <span class="route-dot"></span>
+              <span class="shop-pin" id="mapShopName"></span>
+            </div>
+            <p id="mapAddress"></p>
+          </div>
+
+          <div class="action-row">
+            <a class="action-link" id="mapLink" href="#" target="_blank" rel="noreferrer">
+              打开地图
+            </a>
+            <a
+              class="action-link muted"
+              id="dianpingLink"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+            >
+              大众点评
+            </a>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
