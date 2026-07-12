@@ -6,7 +6,7 @@ const restaurants = [
     image: "./assets/restaurants/p1-04.png",
     tags: ["糯米饭", "快吃", "温州味", "下班路上"],
     review:
-      "适合那种不想正式吃饭、但又想吃点有记忆点东西的晚上。糯米饭和温州小吃会让人很快进入舒服状态。",
+      "我们最常去的家常料理店，会循环周杰伦，敲鱼汤、炒粉干、糯米饭，我们百吃不厌。",
     address: "上海市静安区新闸路1219号",
     mapQuery: "糯米帝·温州灵魂厨房 新闸路1219号 上海",
     dianpingUrl:
@@ -20,7 +20,7 @@ const restaurants = [
     image: "./assets/restaurants/p1-10.png",
     tags: ["素食", "有大桌", "带爸妈", "稳定"],
     review:
-      "想吃得清爽一点时很适合。它不是只靠概念取胜的素食店，更像一间可以认真吃一顿饭的餐厅。",
+      "枣子树来自“早知素”，十年以上的稳定风味与清净的环境总能讨阿姨们的欢心。",
     address: "上海市静安区奉贤路258号",
     mapUrl: "https://www.amap.com/place/B00154YS3A",
     dianpingUrl: "https://m.dianping.com/shop/502507",
@@ -33,7 +33,7 @@ const restaurants = [
     image: "./assets/restaurants/p2-04.png",
     tags: ["披萨", "朋友来", "露台", "轻松"],
     review:
-      "适合朋友来家附近时约在这里，不用解释太多，披萨、饮料和一点点热闹就够了。",
+      "想约人轻松的喝一杯？热闹一点更好？在太平花园对面的老美聚集地，用啤酒和一块刚刚热好的pizza拉近你们的社交距离吧。",
     address: "上海市静安区陕西北路457号何东旧居4幢沿街1层",
     mapQuery: "ZUP PIZZA BAR 上海市静安区陕西北路457号何东旧居4幢沿街1层",
     dianpingUrl: "https://m.dianping.com/shop/1286361941",
@@ -72,7 +72,7 @@ const restaurants = [
     image: "./assets/restaurants/p2-09.png",
     tags: ["本帮菜", "老字号", "大桌", "家常"],
     review:
-      "这类店像一个备选答案：不知道吃什么时，上海菜总能把一顿饭稳稳接住。",
+      "我爱的上海菜，酒香草头、酸菜毛豆鱿鱼、葱油鲜黄贝，都在晓平，老上海的真滋味可不应该只有甜一个字。",
     address: "上海市徐汇区吴兴路279号",
     mapQuery: "晓平饭店 吴兴路279号 上海",
     dianpingUrl: "https://m.dianping.com/shop/1083212948",
@@ -85,7 +85,7 @@ const restaurants = [
     image: "./assets/restaurants/p2-10.png",
     tags: ["素食", "可带宠物", "可预订", "小聚"],
     review:
-      "适合想吃得轻一点、慢一点的时候。它的气质更像一间安静小馆，不急着把饭吃完。",
+      "duli的麦仁什锦是我们素食早餐的起源，是我们每天都在尝试复刻的心头爱，是沙拉也是舌尖上的美学。",
     address: "上海市静安区延平路223弄2-4号益民公寓",
     mapUrl: "https://www.amap.com/place/B0KGDDLY7S",
     dianpingUrl: "https://m.dianping.com/shop/762929538",
@@ -111,7 +111,7 @@ const restaurants = [
     image: "./assets/restaurants/p3-06.png",
     tags: ["湘菜", "想吃辣", "大桌", "免费Wi-Fi"],
     review:
-      "想吃辣、想让一顿饭有精神时，可以把它放进候选。适合几个人一起点菜分享。",
+      "不管是天南海北的朋友来到太平花园，吃御鲤香总归是让人扶墙而出的，谁能不爱小炒黄牛肉和擂辣椒皮蛋？记得早点去排队取个号。",
     address: "上海市静安区北京西路1135号",
     mapUrl: "https://www.amap.com/place/B0FFGYTEVQ",
     dianpingUrl: "https://m.dianping.com/shop/66414204",
