@@ -64,12 +64,14 @@ const files = ${JSON.stringify(manifest)};
 function responseFor(pathname) {
   const file = files[pathname] || files[pathname.replace(/\\/$/, "")] || files["/"];
   const bytes = Uint8Array.from(atob(file.body), (char) => char.charCodeAt(0));
+  const cacheControl = file.contentType.startsWith("image/")
+    ? "public, max-age=31536000, immutable"
+    : "no-cache";
+
   return new Response(bytes, {
     headers: {
       "content-type": file.contentType,
-      "cache-control": file.contentType.startsWith("text/html")
-        ? "no-cache"
-        : "public, max-age=31536000, immutable",
+      "cache-control": cacheControl,
     },
   });
 }
