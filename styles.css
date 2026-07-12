@@ -53,7 +53,7 @@ a {
 .home-screen {
   position: relative;
   display: grid;
-  grid-template-rows: 0.95fr auto auto 0.6fr;
+  grid-template-rows: 0.95fr auto auto 0.5fr;
   min-height: 100svh;
   padding: 34px 0 28px;
 }
@@ -124,10 +124,10 @@ a {
 
 .place-button {
   display: flex;
-  min-height: 270px;
+  min-height: 228px;
   justify-content: center;
   align-items: end;
-  padding: 0 3px 12px;
+  padding: 0 4px 14px;
   border: 0;
   background: transparent;
   cursor: pointer;
@@ -136,8 +136,9 @@ a {
 
 .place-button span {
   writing-mode: vertical-rl;
+  text-orientation: upright;
   color: var(--ink);
-  font-size: clamp(19px, 5.6vw, 28px);
+  font-size: clamp(26px, 7vw, 36px);
   line-height: 1.45;
   letter-spacing: 0;
 }
@@ -191,12 +192,12 @@ a {
 .cover-ending {
   position: relative;
   z-index: 1;
-  align-self: start;
+  align-self: center;
   justify-self: center;
   display: flex;
   flex-direction: column;
   gap: 11px;
-  margin: 20px 0 0;
+  margin: 14px 0 0;
   color: #3b2f25;
   font-size: clamp(42px, 13vw, 68px);
   font-weight: 680;
@@ -321,20 +322,19 @@ h1 {
 }
 
 .travel-card {
-  padding: 18px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: #f3eee6;
+  padding: 19px 0 0;
+  border-top: 1px solid rgba(51, 42, 34, 0.16);
+  background: transparent;
 }
 
 .travel-route {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  margin: 0 0 18px;
-  color: var(--ink);
-  font-size: 17px;
+  gap: 14px;
+  margin: 0 0 20px;
+  color: var(--muted);
+  font-size: 15px;
   line-height: 1.35;
 }
 
@@ -354,30 +354,27 @@ h1 {
 .travel-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  overflow: hidden;
-  margin-bottom: 16px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: var(--line);
+  gap: 12px;
+  margin-bottom: 18px;
+  background: transparent;
 }
 
 .travel-stats div {
   min-width: 0;
-  padding: 15px 8px;
-  background: var(--paper-soft);
-  text-align: center;
+  padding: 0;
+  text-align: left;
 }
 
 .travel-stats strong {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   color: var(--accent);
   font-family:
     ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
-  font-size: 18px;
-  line-height: 1.15;
+  font-size: 20px;
+  font-weight: 620;
+  line-height: 1.2;
 }
 
 .travel-stats span,

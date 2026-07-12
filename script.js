@@ -25,7 +25,7 @@ const restaurants = [
   },
   {
     name: "ZUP PIZZA BAR",
-    meetAt: "美式pizza店",
+    meetAt: "比萨店",
     category: "比萨 / 南京西路商圈",
     image: "./assets/restaurants/p2-04.png",
     tags: ["披萨", "朋友来", "露台", "轻松"],
@@ -73,7 +73,7 @@ const restaurants = [
   },
   {
     name: "Duli 度粒",
-    meetAt: "素食小馆",
+    meetAt: "融合素食",
     category: "素食 / 曹家渡商圈",
     image: "./assets/restaurants/p2-10.png",
     tags: ["素食", "可带宠物", "可预订", "小聚"],
@@ -178,7 +178,7 @@ function renderTrack() {
     .map(
       (restaurant, index) => `
         <button class="place-button" type="button" data-index="${index}">
-          <span>${restaurant.name}</span>
+          <span>${restaurant.meetAt}</span>
         </button>
       `,
     )
