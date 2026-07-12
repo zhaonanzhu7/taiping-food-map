@@ -21,6 +21,7 @@ const restaurants = [
       "想吃得清爽一点时很适合。它不是只靠概念取胜的素食店，更像一间可以认真吃一顿饭的餐厅。",
     address: "上海市静安区奉贤路258号",
     mapUrl: "https://www.amap.com/place/B00154YS3A",
+    dianpingUrl: "https://m.dianping.com/shop/502507",
     travel: { distance: "约 1.1 km", walk: "约 16 分钟", bike: "约 6 分钟" },
   },
   {
@@ -33,6 +34,7 @@ const restaurants = [
       "适合朋友来家附近时约在这里，不用解释太多，披萨、饮料和一点点热闹就够了。",
     address: "上海市静安区陕西北路457号何东旧居4幢沿街1层",
     mapQuery: "ZUP PIZZA BAR 上海市静安区陕西北路457号何东旧居4幢沿街1层",
+    dianpingUrl: "https://m.dianping.com/shop/1286361941",
     travel: { distance: "约 800 m", walk: "约 12 分钟", bike: "约 5 分钟" },
   },
   {
@@ -45,6 +47,7 @@ const restaurants = [
       "当大家想吃点熟悉的港式味道时，它是一个不太需要冒险的选择。适合随便约，也适合多人吃。",
     address: "上海市静安区北京西路1700号-1",
     mapUrl: "https://www.amap.com/place/B0FFHR0E1O",
+    dianpingUrl: "https://m.dianping.com/shop/1311242670",
     travel: { distance: "约 2.1 km", walk: "约 30 分钟", bike: "约 10 分钟" },
   },
   {
@@ -57,6 +60,7 @@ const restaurants = [
       "想从家附近短暂出走一下，可以来这里。香料感、老洋房和比较完整的用餐氛围都在。",
     address: "上海市静安区北京西路1124号1楼",
     mapQuery: "KLAY现代印度餐厅 北京西路1124号1楼 上海",
+    dianpingUrl: "https://m.dianping.com/shop/1072580168",
     travel: { distance: "约 1.0 km", walk: "约 15 分钟", bike: "约 6 分钟" },
   },
   {
@@ -69,6 +73,7 @@ const restaurants = [
       "这类店像一个备选答案：不知道吃什么时，上海菜总能把一顿饭稳稳接住。",
     address: "上海市徐汇区吴兴路279号",
     mapQuery: "晓平饭店 吴兴路279号 上海",
+    dianpingUrl: "https://m.dianping.com/shop/1083212948",
     travel: { distance: "约 4.8 km", walk: "约 68 分钟", bike: "约 22 分钟" },
   },
   {
@@ -81,6 +86,7 @@ const restaurants = [
       "适合想吃得轻一点、慢一点的时候。它的气质更像一间安静小馆，不急着把饭吃完。",
     address: "上海市静安区延平路223弄2-4号益民公寓",
     mapUrl: "https://www.amap.com/place/B0KGDDLY7S",
+    dianpingUrl: "https://m.dianping.com/shop/762929538",
     travel: { distance: "约 2.4 km", walk: "约 34 分钟", bike: "约 12 分钟" },
   },
   {
@@ -93,6 +99,7 @@ const restaurants = [
       "名字就很适合被放进这张地图里。适合临时起意，也适合一个人或两个人轻轻松松吃。",
     address: "上海 同乐坊 / 江宁路",
     mapQuery: "阿王煮物铺·融合料理 上海 同乐坊 江宁路",
+    dianpingUrl: "https://m.dianping.com/shop/1229531793",
     travel: { distance: "约 1.7 km", walk: "约 24 分钟", bike: "约 8 分钟" },
   },
   {
@@ -105,6 +112,7 @@ const restaurants = [
       "想吃辣、想让一顿饭有精神时，可以把它放进候选。适合几个人一起点菜分享。",
     address: "上海市静安区北京西路1135号",
     mapUrl: "https://www.amap.com/place/B0FFGYTEVQ",
+    dianpingUrl: "https://m.dianping.com/shop/66414204",
     travel: { distance: "约 950 m", walk: "约 14 分钟", bike: "约 5 分钟" },
   },
   {
@@ -117,6 +125,7 @@ const restaurants = [
       "更像一个需要一点仪式感的选择。不是每天都去，但会在某些晚上刚好想起它。",
     address: "上海市静安区武定路550-106号",
     mapQuery: "GēN·根 武定路550-106号 上海",
+    dianpingUrl: "https://m.dianping.com/shop/lasC5tElR2eoeKB4",
     travel: { distance: "约 1.9 km", walk: "约 27 分钟", bike: "约 9 分钟" },
   },
   {
@@ -129,6 +138,7 @@ const restaurants = [
       "素食但不寡淡，适合想认真吃一顿清净饭的时候。名字和画面都很适合收藏。",
     address: "上海市静安区愚园路157号福慧楼3楼",
     mapQuery: "香椿故事 静安寺店 愚园路157号福慧楼3楼 上海",
+    dianpingUrl: "https://m.dianping.com/shop/907380563",
     travel: { distance: "约 2.0 km", walk: "约 29 分钟", bike: "约 10 分钟" },
   },
   {
@@ -141,6 +151,7 @@ const restaurants = [
       "天气冷、只想吃一份热热的饭时，它应该排得很靠前。简单，但很有用。",
     address: "上海市静安区北京西路1060号食博汇2楼",
     mapQuery: "陶香煲仔饭 北京西路1060号食博汇2楼 上海",
+    dianpingUrl: "https://m.dianping.com/shop/1067230832",
     travel: { distance: "约 1.2 km", walk: "约 17 分钟", bike: "约 6 分钟" },
   },
 ];
@@ -201,7 +212,8 @@ function openRestaurant(index) {
   bikeTime.textContent = restaurant.travel.bike;
   mapAddress.textContent = `${restaurant.address}。时间为从太平花园出发的估算值。`;
   mapLink.href = restaurant.mapUrl || amapSearchUrl(restaurant);
-  dianpingLink.href = searchUrl("https://www.dianping.com/search/keyword/1/0_", restaurant.name);
+  dianpingLink.href =
+    restaurant.dianpingUrl || searchUrl("https://www.dianping.com/search/keyword/1/0_", restaurant.name);
   home.hidden = true;
   detail.hidden = false;
   window.scrollTo({ top: 0, behavior: "instant" });
