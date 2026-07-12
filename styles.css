@@ -320,71 +320,68 @@ h1 {
   margin-top: 28px;
 }
 
-.map-card {
-  min-height: 230px;
+.travel-card {
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 6px;
-  background:
-    linear-gradient(90deg, rgba(51, 42, 34, 0.06) 1px, transparent 1px),
-    linear-gradient(rgba(51, 42, 34, 0.06) 1px, transparent 1px),
-    #f3eee6;
-  background-size: 28px 28px;
+  background: #f3eee6;
 }
 
-.map-line {
-  position: relative;
-  height: 152px;
-}
-
-.home-pin,
-.shop-pin {
-  position: absolute;
-  display: inline-flex;
+.travel-route {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  min-width: 86px;
-  min-height: 32px;
-  padding: 6px 10px;
-  border-radius: 999px;
-  color: white;
-  background: var(--ink);
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 0 18px;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.travel-route span {
+  min-width: 0;
+}
+
+.travel-route span:first-child,
+.travel-route span:last-child {
+  flex: 1;
+}
+
+.travel-route span:last-child {
+  text-align: right;
+}
+
+.travel-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--line);
+}
+
+.travel-stats div {
+  min-width: 0;
+  padding: 15px 8px;
+  background: var(--paper-soft);
+  text-align: center;
+}
+
+.travel-stats strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--accent);
   font-family:
     ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
-  font-size: 12px;
+  font-size: 18px;
+  line-height: 1.15;
 }
 
-.home-pin {
-  left: 2px;
-  bottom: 18px;
-}
-
-.shop-pin {
-  right: 2px;
-  top: 24px;
-  background: var(--accent);
-}
-
-.route-dot {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgba(157, 63, 48, 0.42);
-}
-
-.route-dot:nth-of-type(2) {
-  left: 38%;
-  top: 55%;
-}
-
-.route-dot:nth-of-type(3) {
-  left: 62%;
-  top: 36%;
-}
-
-.map-card p {
+.travel-stats span,
+.travel-card p {
   margin: 0;
   color: var(--muted);
   font-family:

@@ -58,13 +58,26 @@
           </div>
         </article>
 
-        <section class="map-panel" aria-label="地图和外部链接">
-          <div class="map-card">
-            <div class="map-line" aria-hidden="true">
-              <span class="home-pin">太平花园</span>
-              <span class="route-dot"></span>
-              <span class="route-dot"></span>
-              <span class="shop-pin" id="mapShopName"></span>
+        <section class="map-panel" aria-label="出行信息和外部链接">
+          <div class="travel-card">
+            <p class="travel-route">
+              <span>太平花园</span>
+              <span aria-hidden="true">→</span>
+              <span id="mapShopName"></span>
+            </p>
+            <div class="travel-stats" aria-label="出行时间">
+              <div>
+                <strong id="walkDistance"></strong>
+                <span>步行距离</span>
+              </div>
+              <div>
+                <strong id="walkTime"></strong>
+                <span>步行时间</span>
+              </div>
+              <div>
+                <strong id="bikeTime"></strong>
+                <span>骑车时间</span>
+              </div>
             </div>
             <p id="mapAddress"></p>
           </div>
