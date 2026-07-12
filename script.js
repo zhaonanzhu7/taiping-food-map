@@ -7,8 +7,10 @@ const restaurants = [
     tags: ["糯米饭", "快吃", "温州味", "下班路上"],
     review:
       "适合那种不想正式吃饭、但又想吃点有记忆点东西的晚上。糯米饭和温州小吃会让人很快进入舒服状态。",
-    address: "上海 南京西路商圈",
-    mapQuery: "糯米帝·温州灵魂厨房 上海 南京西路",
+    address: "上海市静安区新闸路1219号",
+    mapQuery: "糯米帝·温州灵魂厨房 新闸路1219号 上海",
+    dianpingUrl:
+      "https://m.dianping.com/shopinfo/l2U9Sb9EmN0rEnTJ?msource=Appshare2021&utm_source=shop_share&shoptype=10&shopcategoryid=112&cityid=1&isoversea=0",
     travel: { distance: "约 900 m", walk: "约 13 分钟", bike: "约 5 分钟" },
   },
   {
